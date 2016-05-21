@@ -7,7 +7,7 @@ import {StateService} from '../common/state.service';
 })
 export class AboutComponent implements OnInit{
   title: string = 'About Page';
-  body:  string = 'This is the about page body';
+  body:  string = 'This is the about page body *this line is edited ~~~*';
   message: string;
 
   constructor(public _stateService: StateService) { }
